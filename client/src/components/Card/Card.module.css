@@ -1,0 +1,27 @@
+.minicards{
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 450px;
+    width: min-content;
+    background-image: url('https://i.pinimg.com/736x/c2/bb/3f/c2bb3f847844eed097c45ec0927dd0e9.jpg');
+    /* https://img.freepik.com/vector-premium/garabatos-comida-rapida-vector-patron-transparente-dibujos-animados-sobre-fondo-blanco_97231-2376.jpg */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleCards{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
+    text-align: center;
+}
+
+.dietsCards{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
+    text-align: start;
+}
+
+.minicards img{
+    border-radius: 15px;
+}

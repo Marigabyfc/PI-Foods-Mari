@@ -1,0 +1,70 @@
+.divForms{
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:  rgb(255, 198, 217);
+    box-shadow: 0 0 15px black;
+    }
+
+.divInputForms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: min-content;
+}
+
+.divAllInputForms{
+    padding: .5em;
+}
+
+.labelInputForms{
+    border-radius: 30px;
+    width: 20em;
+    text-align: start;
+}
+
+.divMappingDietsForms{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.divButtonAndImgForms{
+    display: flex;
+   align-items: center;
+}
+
+
+.divmappingAndOthersForms{
+    display: flex;
+}
+
+.buttonSubmitForm{
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border: 1px solid black;
+    transition: all .3s ease;
+    margin: 5px;
+}
+
+.buttonSubmitForm:hover{
+    background:palevioletred;;
+    color: #fff;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../../images/fondo-food-comida-rapida.jpg');
+    padding: 1rem;
+    height: 100vh;
+}
+
+ .spanInputError{
+    font-family: 'Rampart One', cursive;
+    text-shadow: 0 0 10px red;
+ }

@@ -1,0 +1,52 @@
+    
+    .divLanding{
+        background-image: url(https://img.freepik.com/vector-gratis/fondo-comida-rapida-dibujado-mano_52683-21980.jpg?w=2000);
+        height: 100vh;
+
+}
+
+.imgLanding{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.h3Landing{
+  font-family: 'Kalam', cursive;
+  margin: 0%;
+  padding: 0%;
+  font-size: 3em;
+  position: absolute;
+  left: 70%;
+  top: 70%;
+}
+
+.h1Landing{
+ font-family: 'Rampart One', cursive; ;
+  margin: 0%;
+  padding: 0%;
+  font-size: 4em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+}
+
+
+.buttonLanding {
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    height: 30px;
+    width: 90px;
+    color: palevioletred;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: palevioletred;
+    transition: all 1s ease;
+    position: relative;
+  }
+  .buttonLanding:hover {
+    background:palevioletred;;
+    color: #fff;
+  }
