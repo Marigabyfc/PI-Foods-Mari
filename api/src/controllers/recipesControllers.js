@@ -43,7 +43,7 @@ const getRecipeById = async (id) => {
 // GET INFO API
 
 const getRecipeByApi = async () => {
-        const apiUrl= await axios.get(url)
+        const apiUrl= await axios.get(mock)
         // console.log('entro', JSON.stringify(await apiUrl.data))       
         const apiInfo = await apiUrl.data.results?.map((data) =>{
             return{
