@@ -7,6 +7,7 @@ const {
 } = process.env;
 // const RecipeModel = require('./models/Recipe.js')
 // const DietsModel = require('./models/Diets.js')
+// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/dbfoods`, {
 
 const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/dbfoods`, {
   logging: false, // set to console.log to see the raw SQL queries
