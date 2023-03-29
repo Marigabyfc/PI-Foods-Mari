@@ -17,11 +17,11 @@ export default function Home() {
 
    const diets = useSelector((state) => state.diets)
 
-   const [ordered, setOrdered] = useState('')
+   const [/* ordered */, setOrdered] = useState('')
 
 
     const [currentPage, setCurrentPage] = useState(1)
-    const [elementsPerPage, setElementsPerPage] = useState(9)
+    const [elementsPerPage, /* setElementsPerPage */] = useState(9)
 
   
     const indexOfLastElement = currentPage * elementsPerPage
