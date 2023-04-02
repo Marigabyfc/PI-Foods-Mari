@@ -17,7 +17,7 @@ export const RESET ='RESET'
 
 
 export const getAllRecipes = () => async (dispatch) =>{
-     await axios.get('http://localhost:3001/recipes')
+     await axios.get('https://pifoods.onrender.com/recipes')
     .then((res)=> res.data)
     .then((data)=> dispatch({type: GET_ALL_RECIPES, payload: data}))
 }
@@ -25,7 +25,7 @@ export const getAllRecipes = () => async (dispatch) =>{
 
 export const getRecipeDetail = (id) => async(dispatch)=>{
     dispatch({type: GET_RECIPE_DETAIL, payload: []})
-    await axios.get(`http://localhost:3001/recipes/${id}`)
+    await axios.get(`https://pifoods.onrender.com/recipes/${id}`)
     .then((res) => res.data)
     .then((data) => dispatch({type: GET_RECIPE_DETAIL, payload: data}))
     .catch((err) => console.log(err))
@@ -33,7 +33,7 @@ export const getRecipeDetail = (id) => async(dispatch)=>{
 
 
 export const getDiets = () => async (dispatch) => {
-    await axios.get('http://localhost:3001/diets')
+    await axios.get('https://pifoods.onrender.com/diets')
     .then((res) => {
         let response = res.data?.map(e => e.name)
         dispatch({type: GET_DIETS, payload: response})})
@@ -49,7 +49,7 @@ export const getDiets = () => async (dispatch) => {
 
 export const getRecipeByName = (name) => (dispatch)=>{
     dispatch({type: GET_RECIPE_DETAIL, payload: []})
-    axios.get('http://localhost:3001/recipes?name=' + name)
+    axios.get('https://pifoods.onrender.com/recipes?name=' + name)
     .then((res) => res.data)
     .then((data) => dispatch({type: GET_RECIPE_BY_NAME, payload: data}))
 }
